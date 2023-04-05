@@ -1,0 +1,244 @@
+
+BODY{
+    background-image:url(images/abstract-white-modern-seamless-white-background.jpg) ;
+  background-repeat: repeat-X;
+ background-size:cover ;
+    width: 100%;
+   font-fAmily: 'Segoe UI', ThomA, GenevA, VerdnA, sAns-serif;
+font-size: 25px;
+font-style: itAlic;
+font-weight: bold;
+color: blAck;
+height: 130%;
+}
+img{width: 100%;
+opAcity: 0,8;   
+height: 450px;  
+pAdding-bottom: 5PX;  
+border-rAdius:16px ;
+}
+
+li{/*
+    background-color: rgb(218, 86, 25);
+    display: inline;
+  margin-left: -2%;
+     position: relative;
+     padding: 37PX;*/
+    
+     margin-left: auto;
+margin-right: auto;
+display: block;
+    }
+UL{
+min-height: fit-content;
+border: SOLID 2PX rgba(47, 255, 227, 0.568);
+border-radius: 16PX;
+background-color: rgba(59, 155, 219, 0.733);
+padding: 10%;
+margin-top: 0%;
+max-height:fit-content ;
+mIN-width: fit-content;
+height: 50PX;
+display: flex;
+justify-content: space-between;
+
+    }
+
+.body{
+mArgin: 0 Auto;
+width: 75%;
+
+
+}
+
+
+/*       MINHEDER          */
+
+.mainheader img {
+
+width: 100%;
+
+}
+
+
+
+.mainheader nAv ul li {
+   display: flex; 
+   justify-content: space-between;
+}
+
+ #HOME { 
+width:75PX; 
+height: 75PX; 
+float: left; }
+ #ABOUT { 
+width: 75PX; 
+height: 75PX;
+
+}
+
+#HELP{ 
+    width: 75PX; 
+    height:75PX; 
+ float: right;
+
+
+
+}
+
+#P{
+    color: white;
+
+}
+
+A:hover{text-decorAtion: none;
+    text-shAdow:1PX 2PX blUE ;
+border: solid 2PX BLACK;
+border-radius: 16PX;
+box-shadow: 1PX 4PX;
+background-color: KHAKI;
+}
+.MAINCONTENT{
+   width: 60%;
+  float: left;
+  height: 3700PX;
+  background-image: url(images/WEBBACKROUND.jpg) ;
+  border-radius: 16PX;
+background-repeat: repeat;
+background-size:COVER;
+ color: beige;
+min-height:max-content;
+
+
+}    
+
+.mainheader nav ul li a:HOVER{
+background-color:rgba(218, 86, 25, 0) ;
+box-shadow: none;
+
+bordeR:rgba(59, 155, 219, 0.733) ;
+}
+.H2{
+padding-top: 1CM;
+
+}
+.SIDEBAR{
+width: 30%;
+margin: 1% 0 0 2%;
+border: SOLID 2PX rgba(47, 255, 193, 0.568);
+border-radius: 16PX;
+background-color: rgba(59, 155, 219, 0.733);
+float: left;
+height:max-content;
+font-weight: lighter;
+
+}
+.DIVSIDEBAR{
+
+position: static;
+
+}
+.footer{
+    border: SOLID 2PX rgba(0, 241, 189, 0.568);
+    background-color: rgba(59, 155, 219, 0.733);
+height: 400PX;
+position: absolute;
+width: 100%;
+text-align: center;
+margin-top: 100%;
+
+
+}
+.FIGURE{
+    margin: 30PX 0;
+   color:darkgoldenrod ;
+   font-style: italic;
+   background-image: url(images/WEBBACKROUND.jpg) ;
+background-size: cover;
+}
+audio{
+    width:100%;
+}
+
+
+/*                CSS FOR MOBIL                                   */
+
+@media screen and (max-width:30000px){
+
+    .body{
+        width: 95%;
+        font-size: 95%;
+        
+        }
+            
+                
+            
+            
+            
+            /*       MINHEDER          */
+            
+            
+            
+            
+            
+             #HOME { 
+            width:65PX; 
+            height: 45PX; 
+            float: left; }
+             #ABOUT { 
+            width: 55PX; 
+            height: 45PX;
+            
+            }
+            
+            #HELP{ 
+                width: 55PX; 
+                height:45PX; 
+             float: right;
+            
+            
+            
+            }
+            UL{
+                height: 55PX;
+                padding: 4%;
+            }
+            .MAINCONTENT  VIDEO{
+                width:100% ;
+               
+            }
+            .MAINCONTENT{
+                height: MIN-content;
+            }
+             .SIDEBAR{
+                width: 36%;
+             }
+
+
+
+
+
+
+  }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
